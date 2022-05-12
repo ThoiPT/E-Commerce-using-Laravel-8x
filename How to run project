@@ -1,0 +1,16 @@
+PHP: >=7.1 <8.1
+
+1 - Clone project
+2 - Run composer: composer install
+3 - Create Database with name: db_phutungxe or any
+4 - Copy file and config .env
+  + cp .env.example .env
+  + Edit file .env and change Database Name (3)
+5 - Create Key for project
+  + php artisan key:generate
+6 - Migrate
+  + php artisan migrate
+7 - Storage:link 
+  + php artisan storage:link
+8 - Run project
+  + php artisan serve
